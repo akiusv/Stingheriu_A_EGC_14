@@ -1,0 +1,30 @@
+        //1c
+        //GL.ClearColor() este in OnRenderFrame deoarece culoarea se schimba in functie de timp si trebuie sa se actualizeze la fiecare cadru, si nu ar functiona in OnLoad
+
+
+    //2c
+    // prin interpolare baricentrica realizata automat de GPU pe baza valorilor culorilor de la cele trei varfuri
+
+    //2d
+    // daca dam aceeasi culoare varfurilor, triunghiul va avea o culoare solida
+
+    //3c
+    // starea ramane blocata asa pe tot parcursul executiei
+
+    //4a
+    // s-a modificat valoarea uOffset 
+
+    //4d
+    // viteza ar depinde de fps, folosirea lui dt normalizeaza miscarea in functie de timp
+
+    //4e
+    // triunghiul va fi taiat (clipping) in etapa de rasterizare si devine invizibil
+
+    //5b
+    // nu se va deforma triunghiul
+
+    //5d
+    // problema 5 deoarece transfera mai multe date(actualizeaza intreg tabloul de varfuri), deci pentru un milion de varfuri ar scadea semnificativ performanta aplicatiei
+
+    //5e
+    // aria va deveni egala cu zero, nu va fi desenat nimic

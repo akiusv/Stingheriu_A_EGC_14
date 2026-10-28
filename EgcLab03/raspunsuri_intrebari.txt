@@ -1,0 +1,44 @@
+1b
+diagonala dreptunghiului, muchia comuna celor doua triunghiuri
+
+1c
+deoarece dreptunghiul e format din doua triunghiuri independente
+
+1d
+la aceeasi culoare, dreptunghiul e negru
+la doua culori diferite, degrade perfect, rosu jos si albastru sus
+
+2b
+n=3 triunghi echilateral
+n=4 patrat
+n=6 hexagon
+n=64 disc
+
+2d
+varfuri = n + 1
+indici = 3*n
+%sides este necesar pentru a se inchide corect ultimul triunghi
+fara (float) s-ar vedea o singura culoare si centrul alb
+
+3a
+da
+
+3b
+latime 200 pixeli
+inaltime 150 pixeli
+
+daca fereastra este patrata, devine cerc perfect
+daca o largesc, se va deforma
+
+3d
+de la n=28
+
+4b
+( 0,5; 1;   1) cyan
+(0,25; 1;   1) verde
+(   0; 0;   1) alb
+(   0; 1; 0,5) rosu
+
+4d
+e de 10 ori mai rapida parcurgerea prin culori, iar culorile sunt mai stridente
+
